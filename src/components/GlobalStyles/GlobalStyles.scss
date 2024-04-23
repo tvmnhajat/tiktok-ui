@@ -1,0 +1,37 @@
+@import 'normalize.css';
+
+:root {
+    --primary: #fe2c55;
+    // Default layout
+    --default-layout-header-height: 60px;
+    --default-layout-header-width: 1150px;
+    --black: black;
+    --text-color: #333;
+}
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+}
+
+button, input, [tabindex] {
+    outline:none;
+    border: none;
+}
+
+a[href] {
+    color: var(--tex-color);
+    text-decoration: none;
+}
